@@ -1,0 +1,13 @@
+GROCERY DELIVERY SYSTEM - BACKEND SETUP
+
+This package preserves the original Spring Boot business logic and API endpoints. Project metadata and the default database name have been renamed for Grocery.
+
+1. Install JDK 21 and MySQL.
+2. Create a database named grocery_delivery_db in MySQL.
+3. Open src/main/resources/application.properties and set spring.datasource.username and spring.datasource.password to your local MySQL credentials. The URL currently uses localhost:3307, matching the supplied project; if your MySQL uses port 3306, update it.
+4. In Eclipse: File > Import > Maven > Existing Maven Projects, select this extracted folder, then Finish.
+5. Right-click the project > Maven > Update Project.
+6. Run the existing ChickenDeliverySystemApplication.java as Spring Boot App. The Java class name/package intentionally remain unchanged to avoid risky changes to the original code.
+7. Backend listens on http://localhost:8080.
+
+IMPORTANT: Create a separate database for the grocery project. Do not point it at your original production or personal data. The project may still require the same original configuration/secrets and the database must contain valid product records. The source package is not runtime-tested against your local MySQL credentials.
