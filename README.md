@@ -571,7 +571,6 @@ The screenshots below use GitHub-compatible Markdown image syntax. They will dis
 
 **Technologies:** React.js | Java 21 | Spring Boot | Spring Security | JWT | MySQL
 
-**GitHub:** [Manesh Vedpathak](https://github.com/amanattar14)
 
 ---
 
